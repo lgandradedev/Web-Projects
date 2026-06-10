@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css"> <!-- Conecta o arquivo CSS à página-->
 </head>
 <body>
     <div class="calculadora">
 
 
         <div class="display">
-            <span id="expression"></span>
-            <span id="result">0</span>
+            <span id="expression"></span> <!-- Espaço para mostrar a expressão digitada, ex: 2+3. Começa vazio. O JS preenche via id="expression".-->
+            <span id="result">0</span> <!-- Espaço para mostrar o resultado. Começa com 0. O JS atualiza via id="result".-->
      
         </div>
         <div class="buttons">
@@ -21,6 +21,6 @@
 
 
 
-    <script src="app.js"></script>
+    <script src="app.js"></script> <!--Conecta o arquivo JavaScript, Fica no final do body para que o HTML carregue primeiro-->
 </body>
 </html>
